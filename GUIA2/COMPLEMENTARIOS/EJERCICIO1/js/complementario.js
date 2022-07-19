@@ -30,8 +30,8 @@ if(!(num)){
         alert("ERROR... dato no valido");
     }else{
       if(num >  0){
-        cifras = num.length ;
-        document.write("<h1> Cantidad de cifras que tiene el numero: "+cifras+"</h1>");
+        
+        document.write("<h1> Cantidad de cifras: "+num+"</h1>");
 
         for(i = num; i > 0; i--){
             sumCifras += i * 1;
@@ -59,8 +59,7 @@ if(!(num)){
         }
 
       }else if(num < 0){
-        cifras = num.length - 1;
-        document.write("<h1> Cantidad de cifras que tiene el numero "+cifras+"</h1>");
+        document.write("<h1> Cantidad de cifras: "+num * -1+"</h1>");
         for(i = num; i < 0; i++){
             sumCifras += i * 1;
             if(i % 2 == 0){
