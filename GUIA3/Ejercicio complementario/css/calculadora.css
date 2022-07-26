@@ -1,0 +1,20 @@
+
+body{
+    background-color: azure;
+}
+.principal{
+   margin: auto;
+   padding: 10px 10px;
+    border: 1px solid black;
+    width: 10%;
+    background-color:darkgray;
+    padding-top: 50px;
+}
+.resultado{
+    background-color: darkgray;
+    
+}
+P{
+    display: flex;
+    
+}

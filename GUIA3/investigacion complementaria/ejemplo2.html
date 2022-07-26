@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+</head>
+<body>
+    <script>
+       function creaSumador(x) {
+  return function(y) {
+    return x + y;
+  };
+}
+
+var suma5 = creaSumador(10);
+var suma10 = creaSumador(-3);
+
+console.log(suma5(2));  // muestra 12
+console.log(suma10(3)); // muestra 0
+
+    </script>
+</body>
+</html>
